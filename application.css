@@ -1,0 +1,183 @@
+body {
+  background-image: url(https://abs.twimg.com/images/themes/theme8/bg.gif);
+  background-position: left 40px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #8B542B;
+  color: #333;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+li {
+  display: inline-block;
+  text-align: -webkit-match-parent;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-image: url(https://abs.twimg.com/a/1384470786/t1/img/twitter_web_sprite_bgs.png);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-color: #252525;
+  display: block;
+}
+
+.navigation {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  position: relative;
+  right: -163px;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar > li {
+  float: left;
+}
+
+
+ul {
+  list-style: ;
+}
+
+.navbar > a > li {
+  display: block;
+  height: 12px;
+  padding: 13px 12px 15px;
+  position: relative;
+}
+
+.navbar .active a {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+
+
+.menu-text {
+  font-weight: bold;
+  line-height: 1;
+  font-size: 12px;
+  margin: 0 23 0 0;
+  color: #bbb;
+  position: relative;
+  top: -3px;
+}
+
+
+.text {
+  font-weight: bold;
+  line-height: 1;
+  font-size: 12px;
+  margin: 0 23 0 0 ;
+    position: relative;
+  top: 12px;
+  left: 10px;
+}
+
+.navbar  a  li{
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.nav-home {
+  height: 21px;
+  width: 22px;
+  display: inline-block;
+  vertical-align: text-top;
+  background-image: url(https://abs.twimg.com/a/1384470786/t1/img/twitter_web_sprite_icons.png);
+  background-position: 0 -110px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 13px;
+  left: 10px;
+}
+
+.nav-new {
+  display: block;
+  position: absolute;
+  top: 38px;
+  left: 9%;
+  background-image: url(https://abs.twimg.com/a/1384470786/t1/img/twitter_web_sprite_icons.png);
+  background-position: -200px -80px;
+  height: 3px;
+  width: 24px;
+}
+
+.nav-people {
+  display: inline-block;
+  position: relative;
+  background-image: url(https://abs.twimg.com/a/1384470786/t1/img/twitter_web_sprite_icons.png);
+  background-position: -80px -50px;
+  height: 22px;
+  width: 21px;
+  float: left;
+  top:-3px;
+}
+
+.nav-topics {
+  display: inline-block;
+  position: relative;
+  background-image: url(https://abs.twimg.com/a/1384470786/t1/img/twitter_web_sprite_icons.png);
+  background-position: -40px -50px;
+  height: 22px;
+  width: 17px;
+  float: left;
+  top:-3px;
+}
+
+.nav-me {
+  display: inline-block;
+  position: relative;
+  background-image: url(https://abs.twimg.com/a/1384470786/t1/img/twitter_web_sprite_icons.png);
+  background-position: -120px -50px;
+  height: 22px;
+  width: 21px;
+  float: left;
+  top:-3px;
+}
+
+
+.navbar i {
+  float: left;
+  margin: -4px 6px 0 0;
+}
+
+.active {
+  background-color: #222;
+  height: 40px;
+  width: 85px;
+  position: absolute;
+  top: -16px;
+  left: -10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff
+}
+
+.navbar .active {
+  text-decoration: none;
+  color: #fff;
+}
+
+
