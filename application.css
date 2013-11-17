@@ -320,5 +320,45 @@ line-height: 20px;
   border-radius: 4px; 
 }
 
+.mini-profile {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 6px;
+  height: 158px; 
+  width: 302px;
+  position: absolute;
+  display: block;
+  top: 55px;
+  left:145px;
+  float: left;
+  z-index: -1;
+}
 
+.who-to-follow {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 6px;
+  height: 208px; 
+  width: 302px;
+  position: absolute;
+  display: block;
+  top: 230px;
+  left:145px;
+  float: left;
+  z-index: -1;
+}
+
+.tweet-feed {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 6px;
+  height: 100%; 
+  width: 520px;
+  position: absolute;
+  display: block;
+  top: 57px;
+  right:145px;
+  float: right;
+  z-index: -1;
+}
 
